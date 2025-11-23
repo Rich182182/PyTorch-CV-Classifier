@@ -1,0 +1,7 @@
+Model,Mode,LR Details,Val Acc,Test Acc,Time (min)
+resnet18,Frozen,0.001,0.9223,0.9063,9.37
+resnet18,Finetuned,"layer4=0.0001, head=0.001",0.9412,0.9333,4.35
+resnet50,Frozen,0.001,0.9245,0.9120,12.84
+resnet50,Finetuned,"layer4=0.0001, head=0.001",0.9387,0.9290,5.90
+efficientnet_b0,Frozen,0.001,0.9116,0.8940,8.61
+mobilenet_v2,Frozen,0.001,0.9241,0.9140,6.64

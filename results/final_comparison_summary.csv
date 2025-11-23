@@ -1,0 +1,14 @@
+Model,Val Accuracy,Test Accuracy,Time (min)
+Ensemble,0.9882,0.937,Combined
+resnet18 (Finetuned),0.9412,0.9333,4.35
+Combined Reg,0.99,0.933,11.50
+Label Smoothing,0.9861,0.9303,11.46
+resnet50 (Finetuned),0.9387,0.929,5.9
+Advanced Aug,0.9669,0.9287,22.66
+Weight Decay,0.9815,0.9253,7.66
+Baseline Aug,0.9804,0.9217,8.04
+mobilenet_v2 (Frozen),0.9241,0.914,6.64
+resnet50 (Frozen),0.9245,0.912,12.84
+resnet18 (Frozen),0.9223,0.9063,9.37
+efficientnet_b0 (Frozen),0.9116,0.894,8.61
+Baseline CNN,0.8693,0.866,13.2
