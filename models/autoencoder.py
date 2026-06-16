@@ -132,3 +132,4 @@ class DenoisingAutoencoder(nn.Module):
         noisy = images + noise_factor * torch.randn_like(images)
         noisy = torch.clamp(noisy, 0., 1.)
         return noisy
+        
