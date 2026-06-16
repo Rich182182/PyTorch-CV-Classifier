@@ -4,4 +4,4 @@ Advanced Aug,Advanced,None,Single,0.9669,0.9287,22.66
 Label Smoothing,Advanced,Label Smooth+Dropout,Single,0.9861,0.9303,11.46
 Weight Decay,Advanced,L2+Dropout,Single,0.9815,0.9253,7.66
 Combined Reg,Advanced,All,Single,0.9900,0.9330,11.50
-Ensemble,Mixed,Mixed,Ensemble,0.9882,0.9370,Combined
+Ensemble,Mixed,Mixed,Ensemble,0.9882,0.9370,Combined 
