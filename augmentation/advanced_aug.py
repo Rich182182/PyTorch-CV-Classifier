@@ -84,3 +84,4 @@ def get_regularized_model(base_model, dropout_rate=0.5):
             return output
 
     return RegularizedWrapper(base_model, dropout_rate)
+    
